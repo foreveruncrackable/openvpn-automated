@@ -21,7 +21,7 @@ AND using it on CLI can help in character development on IT section.
   in windows download:
   
     $winget install Python.Python.3.14
-   and openvpn.exe file
+   and openvpn (https://openvpn.net/downloads/openvpn-connect-v3-windows.msi)
  
 ## 2.install the programe
 
@@ -31,8 +31,6 @@ AND using it on CLI can help in character development on IT section.
 ## 3.set up config
 
   rename the .ovpn config to offenso.ovpn then copy to openvpn-automated
-
-  (if windows users) copy the openvpn.exe to openvpn-automated file
 
 ## 4.run the programe 
 
