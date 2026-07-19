@@ -1,5 +1,5 @@
 # openvpn-automated
-This script is made to use open vpn configs easly without having to remeber the command always.
+# This script is made to use open vpn configs easly without having to remeber the command always.
 
 WHY USE IN CLI?? NO GUI??
  well GUI is more bloted and runs in backround of your pc that having to make your pc slower when it bootups and etc 
@@ -13,18 +13,18 @@ HOW TO USE THIS SCRIPT
 1.install dependencies
 
   if youre on linux type
-    sudo apt install python
-    pip install -r requirments
+    $sudo apt install python
+    $pip install -r requirments
   in windows download
-   python 
-   openvpn.exe
-
+   -python 
+   -openvpn.exe
+ 
 2.install the programe
 
-  git clone https://github.com/foreveruncrackable/openvpn-automated
-  cd openvpn-automated
-  #for linux users
-  pip install -r requirments
+  $git clone https://github.com/foreveruncrackable/openvpn-automated
+  $cd openvpn-automated
+  # for linux users
+  $pip install -r requirments
 
 3.set up config
 
@@ -32,7 +32,7 @@ HOW TO USE THIS SCRIPT
 
 4.run the programe 
 
-  python vpn.py
+  $python vpn.py
 
 
   
