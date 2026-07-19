@@ -8,31 +8,38 @@ WHY USE IN CLI?? NO GUI??
 AND using it on CLI can help in character development on IT section.
 
 
-HOW TO USE THIS SCRIPT
+### HOW TO USE THIS SCRIPT
 
-1.install dependencies
+## 1.install dependencies
 
-  if youre on linux type
+  if youre on linux type:
+  
     $sudo apt install python
-    $pip install -r requirments
-  in windows download
-   -python 
-   -openvpn.exe
+    
+  
+  in windows download:
+  
+    $winget install Python.Python.3.14
+    $winget install OpenVPN.OpenVPN-Connect
  
-2.install the programe
+## 2.install the programe
 
-  $git clone https://github.com/foreveruncrackable/openvpn-automated
-  $cd openvpn-automated
-  # for linux users
-  $pip install -r requirments
+    $git clone https://github.com/foreveruncrackable/openvpn-automated
+    $cd openvpn-automated
+ 
+  ### for linux users
+  
+    $pip install -r requirments
 
-3.set up config
+## 3.set up config
 
   rename the .ovpn config to offenso.ovpn then copy to openvpn-automated
 
-4.run the programe 
+  (if windows users) copy the openvpn.exe to openvpn-automated file
 
-  $python vpn.py
+## 4.run the programe 
+
+    $python vpn.py
 
 
   
