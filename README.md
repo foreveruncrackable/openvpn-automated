@@ -12,11 +12,23 @@ HOW TO USE THIS SCRIPT
 
 1.install dependencies
   if youre on linux type
+    sudo apt install python
     pip install -r requirments
   in windows download
    python 
    openvpn.exe
 
 2.install the programe
-  git clone 
+  git clone https://github.com/foreveruncrackable/openvpn-automated
+  cd openvpn-automated
+  #for linux users
+  pip install -r requirments
+
+3.set up config
+  rename the .ovpn config to offenso.ovpn then copy to openvpn-automated
+
+4.run the programe 
+  python vpn.py
+
+
   
